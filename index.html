@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Javascript Debug Practice</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.44.0/codemirror.css">
+
+
+</head>
+
+<body>
+    <header>        
+        <p>Javascript Debug Practice</p>
+        <p>〜エラーで学ぶJavaScript〜</p>
+    </header>
+
+    <div class="container">
+        <div class="content order-window">
+            <button id="prev" title="前の問題へ"><i class="fas fa-backward fa-2x"></i></button>
+            <p id="issue-number"></p>
+            <button id="next" title="次の問題へ"><i class="fas fa-forward fa-2x"></i></button>
+            <p id="order-target"></p>
+        </div>
+
+        <!-- <div class="content control-window">
+        </div> -->
+        
+        <div class="content code-window">
+            <textarea></textarea>
+            <button id="run"  title="実行する"><i class="fas fa-play fa-2x"></i></button>
+            <button id="reset"  title="リセット"><i class="fas fa-sync-alt fa-2x"></i></button>
+        </div>
+
+        <div class="content message-window">
+            <p></p>
+        </div>
+
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.44.0/codemirror.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.44.0/mode/javascript/javascript.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
